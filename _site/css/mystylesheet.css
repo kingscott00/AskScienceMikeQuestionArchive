@@ -28,3 +28,21 @@
 .my-footer-text{
     padding-top: 5px;
 }
+
+.col-episode{
+min-width: 75px;
+ max-width: 75px;
+ width: 75px;   
+}
+
+.col-questionnum{
+min-width: 75px;
+ max-width: 75px;
+ width: 75px;   
+}
+
+.col-description {
+ min-width: 250px;
+ max-width: 250px;
+ width: 250px;   
+}

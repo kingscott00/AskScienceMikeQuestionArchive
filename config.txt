@@ -1,0 +1,5 @@
+!Configuration settings
+ProjectFolder: C:\www\AskScienceMikeQuestions
+Spreadsheet: https://docs.google.com/spreadsheets/d/1NspVr1JD0RJQpbDxtW7ieKnchj0RixWfk2uINwSDEqY//export?format=tsv&id=1XgDXfj3W64j2S6aQo-OOtxFEADd5RyAnbdFYdbU4A-w&gid=0
+GitHub_Repo:
+Website: https://kingscott00.github.io/ASMQuestions/

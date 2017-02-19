@@ -1,0 +1,89 @@
+@font-face {
+    font-family: MyFont;
+    src: url("../fonts/FuturaTEE Regular.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+    font-family: MyFontLig;
+    src: url("../fonts/FuturaTEELig Regular.ttf") /* TTF file for CSS3 browsers */
+}
+
+html{
+    height: 100%;
+}
+
+#main {
+    font-family: Tahoma,Verdana,Segoe,sans-serif;  
+    font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+}
+
+.my-header{
+    background: url("../images/stars-bg.png") no-repeat 80% 40%;
+    background-size: cover;
+    position:relative;
+    /*background-color:#1C2C3A;*/
+    color:white;
+    height: 200px;
+    margin-bottom: 10px;
+    background-color: #000;
+    color: #fff;
+    z-index: 98;
+    font-family: "MyFont";
+    font-size: 300px;
+}
+
+.title{
+    padding-top: 30px;
+    
+}
+
+.sub-title{
+    color: #9c9999;
+    font-family: "MyFontLig";
+}
+
+.overlay{
+    background-color: rgba(32,26,22,.7);
+    position:absolute;
+    margin: 0;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: 99;
+}
+
+.my-footer{
+    position: relative;
+    bottom:0;
+    
+    height: 30px;
+    width: 100%;
+    background-color: #201a16;
+    color: rgba(255, 255, 255, .4);
+    text-align:center;
+}
+
+.my-footer-text{
+    padding-top: 5px;
+}
+
+.col-episode{
+min-width: 75px;
+ max-width: 75px;
+ width: 75px;   
+}
+
+.col-questionnum{
+min-width: 75px;
+ max-width: 75px;
+ width: 75px;   
+}
+
+.col-description {
+ min-width: 250px;
+ max-width: 250px;
+ width: 250px;   
+}

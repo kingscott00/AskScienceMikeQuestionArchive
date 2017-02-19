@@ -1,0 +1,30 @@
+#main {
+    font-family: Tahoma,Verdana,Segoe,sans-serif;  
+    font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+}
+
+.my-header{
+    background-color:#1C2C3A;
+    color:white;
+    /*color: white;*/
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+.my-footer{
+    position: fixed;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    background-color: lightgray;
+    /*border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color:black;*/
+    text-align:center;
+}
+
+.my-footer-text{
+    padding-top: 5px;
+}

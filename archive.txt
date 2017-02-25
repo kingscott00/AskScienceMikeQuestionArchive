@@ -1,21 +1,21 @@
-Episode_Number	Question_Number	URI	Keywords	Question
-1	1	http://mikemchargue.com/asksciencemike/2015/1/18/episode-1-animal-souls-the-power-of-uncertainty-and-getting-freaky-with-angels	Humans, Evolution	Who was the first person with a soul? Who, when or what created this extra layer to humanity?
-1	2	http://mikemchargue.com/asksciencemike/2015/1/18/episode-1-animal-souls-the-power-of-uncertainty-and-getting-freaky-with-angels	Truth seeking, Faith	How do you deal with wanting to remain open minded and uncertain while always looking for facts and certainty?
-1	3	http://mikemchargue.com/asksciencemike/2015/1/18/episode-1-animal-souls-the-power-of-uncertainty-and-getting-freaky-with-angels	Doubt, Faith	I doubt the need for God, but I still feel like there is a God. How do you deal with cognitive dissonance? 
-1	4	http://mikemchargue.com/asksciencemike/2015/1/18/episode-1-animal-souls-the-power-of-uncertainty-and-getting-freaky-with-angels	Bible	What are you thoughts about Genesis 6:2 that says the sons of God married daughters of humans?
-2	1	http://mikemchargue.com/asksciencemike/2015/1/22/episode-2-pangea-prayer-and-pretending-god-is-real	Geology	Can God make a rock so big that he couldn't lift it?
-2	2	http://mikemchargue.com/asksciencemike/2015/1/22/episode-2-pangea-prayer-and-pretending-god-is-real	Prayer, Neurology	What happens in our brain when we use our imagination and when we pray, and how do these interact?
-2	3	http://mikemchargue.com/asksciencemike/2015/1/22/episode-2-pangea-prayer-and-pretending-god-is-real	Geology	Why is Pangea threatening to American Christians?
-2	4	http://mikemchargue.com/asksciencemike/2015/1/22/episode-2-pangea-prayer-and-pretending-god-is-real	Faith, Religion, Doubt	I want to believe in something. Where do I start? 
-3	1	http://mikemchargue.com/asksciencemike/2015/1/31/episode-3-the-fastest-car-in-the-universe-what-happens-when-we-die	Fun	What is the fastest car in the universe?
-3	2	http://mikemchargue.com/asksciencemike/2015/1/31/episode-3-the-fastest-car-in-the-universe-what-happens-when-we-die	Prayer, Faith	Does God answer prayer?
-3	3	http://mikemchargue.com/asksciencemike/2015/1/31/episode-3-the-fastest-car-in-the-universe-what-happens-when-we-die	Astronomy	What are antimatter and black holes?
-3	4	http://mikemchargue.com/asksciencemike/2015/1/31/episode-3-the-fastest-car-in-the-universe-what-happens-when-we-die	Afterlife, Faith	What happens when we die?
-4	1	http://mikemchargue.com/asksciencemike/2015/2/8/episode-4-rising-waters-an-expanding-universe-and-an-infinite-number-of-hells	Astronomy, Physics, Cosmology	What in, or of, the universe is expanding?
-4	2	http://mikemchargue.com/asksciencemike/2015/2/8/episode-4-rising-waters-an-expanding-universe-and-an-infinite-number-of-hells	Cosmology, Religion, Afterlife	What implications does the multiverse have on Heaven and Hell?
-4	3	http://mikemchargue.com/asksciencemike/2015/2/8/episode-4-rising-waters-an-expanding-universe-and-an-infinite-number-of-hells	Bible	What's the historical basis for Noah's flood?
-4	4	http://mikemchargue.com/asksciencemike/2015/2/8/episode-4-rising-waters-an-expanding-universe-and-an-infinite-number-of-hells	Spiritual, Neurology	Is there merit to spiritual warfare? Or is it a construct that humans have created to find meaning in our existence?
-5	1	http://mikemchargue.com/asksciencemike/2015/2/15/episode-5-chaos-theory-disproving-the-big-bang-and-why-god-is-such-a-meanie	Cosmology	Was the Big Band Theory disproven this week?
-5	2	http://mikemchargue.com/asksciencemike/2015/2/15/episode-5-chaos-theory-disproving-the-big-bang-and-why-god-is-such-a-meanie	Cosmology, Mathematics	What does Chaos Theory tell us about God and how He created our universe?
-5	3	http://mikemchargue.com/asksciencemike/2015/2/15/episode-5-chaos-theory-disproving-the-big-bang-and-why-god-is-such-a-meanie	God, Faith, Bible	How do you reconcile the mean Old Testament God with the loving Jesus?
-5	4	http://mikemchargue.com/asksciencemike/2015/2/15/episode-5-chaos-theory-disproving-the-big-bang-and-why-god-is-such-a-meanie	Christianity, Faith	Is Christianity worth all the baggage that it carries?
+Episode_Number	Question_Number	Time_stamp	URI	Keywords	Question
+1	1	1:00	http://mikemchargue.com/asksciencemike/2015/1/18/episode-1-animal-souls-the-power-of-uncertainty-and-getting-freaky-with-angels	Humans, Evolution	Who was the first person with a soul? Who, when or what created this extra layer to humanity?
+1	2	9:59	http://mikemchargue.com/asksciencemike/2015/1/18/episode-1-animal-souls-the-power-of-uncertainty-and-getting-freaky-with-angels	Truth seeking, Faith	How do you deal with wanting to remain open minded and uncertain while always looking for facts and certainty?
+1	3	14:49	http://mikemchargue.com/asksciencemike/2015/1/18/episode-1-animal-souls-the-power-of-uncertainty-and-getting-freaky-with-angels	Doubt, Faith	I doubt the need for God, but I still feel like there is a God. How do you deal with cognitive dissonance? 
+1	4	21:26	http://mikemchargue.com/asksciencemike/2015/1/18/episode-1-animal-souls-the-power-of-uncertainty-and-getting-freaky-with-angels	Bible	What are you thoughts about Genesis 6:2 that says the sons of God married daughters of humans?
+2	1	1:00	http://mikemchargue.com/asksciencemike/2015/1/22/episode-2-pangea-prayer-and-pretending-god-is-real	Geology	Can God make a rock so big that he couldn't lift it?
+2	2	7:24	http://mikemchargue.com/asksciencemike/2015/1/22/episode-2-pangea-prayer-and-pretending-god-is-real	Prayer, Neurology	What happens in our brain when we use our imagination and when we pray, and how do these interact?
+2	3	21:29	http://mikemchargue.com/asksciencemike/2015/1/22/episode-2-pangea-prayer-and-pretending-god-is-real	Geology	Why is Pangea threatening to American Christians?
+2	4	19:55	http://mikemchargue.com/asksciencemike/2015/1/22/episode-2-pangea-prayer-and-pretending-god-is-real	Faith, Religion, Doubt	I want to believe in something. Where do I start? 
+3	1	1:04	http://mikemchargue.com/asksciencemike/2015/1/31/episode-3-the-fastest-car-in-the-universe-what-happens-when-we-die	Fun	If your traveling in a car at the speed of light and you turn your headlights on, will it work?
+3	2	9:19	http://mikemchargue.com/asksciencemike/2015/1/31/episode-3-the-fastest-car-in-the-universe-what-happens-when-we-die	Prayer, Faith	Does God answer prayer?
+3	3	17:55	http://mikemchargue.com/asksciencemike/2015/1/31/episode-3-the-fastest-car-in-the-universe-what-happens-when-we-die	Astronomy	What are antimatter and black holes?
+3	4	22:09	http://mikemchargue.com/asksciencemike/2015/1/31/episode-3-the-fastest-car-in-the-universe-what-happens-when-we-die	Afterlife, Faith	What happens when we die?
+4	1	1:04	http://mikemchargue.com/asksciencemike/2015/2/8/episode-4-rising-waters-an-expanding-universe-and-an-infinite-number-of-hells	Astronomy, Physics, Cosmology	What in, or of, the universe is expanding?
+4	2	5:46	http://mikemchargue.com/asksciencemike/2015/2/8/episode-4-rising-waters-an-expanding-universe-and-an-infinite-number-of-hells	Cosmology, Religion, Afterlife	What implications does the multiverse have on Heaven and Hell?
+4	3	16:07	http://mikemchargue.com/asksciencemike/2015/2/8/episode-4-rising-waters-an-expanding-universe-and-an-infinite-number-of-hells	Bible	What's the historical basis for Noah's flood?
+4	4	21:17	http://mikemchargue.com/asksciencemike/2015/2/8/episode-4-rising-waters-an-expanding-universe-and-an-infinite-number-of-hells	Spiritual, Neurology	Is there merit to spiritual warfare? Or is it a construct that humans have created to find meaning in our existence?
+5	1	1:00	http://mikemchargue.com/asksciencemike/2015/2/15/episode-5-chaos-theory-disproving-the-big-bang-and-why-god-is-such-a-meanie	Cosmology	Was the Big Band Theory disproven this week?
+5	2	4:07	http://mikemchargue.com/asksciencemike/2015/2/15/episode-5-chaos-theory-disproving-the-big-bang-and-why-god-is-such-a-meanie	Cosmology, Mathematics	What does Chaos Theory tell us about God and how He created our universe?
+5	3	10:55	http://mikemchargue.com/asksciencemike/2015/2/15/episode-5-chaos-theory-disproving-the-big-bang-and-why-god-is-such-a-meanie	God, Faith, Bible	How do you reconcile the mean Old Testament God with the loving Jesus?
+5	4	16:35	http://mikemchargue.com/asksciencemike/2015/2/15/episode-5-chaos-theory-disproving-the-big-bang-and-why-god-is-such-a-meanie	Christianity, Faith	Is Christianity worth all the baggage that it carries?

@@ -42,60 +42,327 @@
                 <h1 class="title text-center">Ask Science Mike</h1>
                 <h2 class="sub-title text-center">Question Archive</h2>
             </div>
-
         </div>
-        <!-- end header template --><!-- start of body template -->
-<div class="container my-body">
-    <!-- start of index upper template -->
-<div class="my-body-upper">
-    <div class="row">
-        <div class="col-md-2">
+        <!-- end header template -->
+        <!-- start of body template -->
+        <div class="container my-body">
+            <!-- start of index upper template -->
+            <div class="my-body-upper">
+                <div class="row">
+                    <div class="col-md-2">
 
+                    </div>
+                    <div class="col-xs-12 col-sm-2 col-md-2">
+                        <a href="http://mikemchargue.com/ask-science-mike/"><img src="images\asmLogo.jpg" height="145" width="145" class=".img-responsive" alt="Ask Science Mike"
+                            /></a>
+                    </div>
+                    <div class="col-xs-12 col-sm-8 col-sm-offset-1 col-md-6 col-md-offset-0">
+                        <p> <a href="http://mikemchargue.com/ask-science-mike/"> Ask Science Mike</a> is a weekly podcast covering
+                            questions about science, faith, and life. The show is hosted by
+                            <a href="http://mikemchargue.com/about-mike">Mike McHargue.</a>
+                        </p>
+                        <p>Browse the archive of questions and topics. Click the episode number to listen and view the show
+                            notes.
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-2 col-md-4">
+                    </div>
+                </div>
+            </div>
+            <!-- End index upper template -->
+
+            <!-- start filter section -->
+            <div class="row filter-panel">
+                <div class="col-md-6">
+                </div>
+                <div class="col-md-6">
+                    <a href="#" class="pull-right filter-button" data-toggle="collapse" data-target="#filters">Show Filters <span class="caret" /></a>
+                </div>
+            </div>
+
+            <div id="filters" class="collapse filter-panel">
+                <div class="well container-fluid">
+                    <div>
+                        <h4>Tags</h4>
+                        <div id="filterByTagCheckBoxes">
+                            <h5 class="filter-cat">Science</h5>
+                            <label><input name="filterCheckBox"  type="checkbox" value="Astronomy">Astronomy</label>
+                            <label><input name="filterCheckBox" type="checkbox" value="Geology">Geology</label>
+                            <label><input name="filterCheckBox"  type="checkbox" value="Neurology">Neurology</label>
+                            <label><input name="filterCheckBox"  type="checkbox" value="Psychology">Psychology</label>
+                            <label><input name="filterCheckBox"  type="checkbox" value="Physics">Physics</label>
+                            <label><input name="filterCheckBox"  type="checkbox" value="Cosmology">Cosmology</label>
+                            <label><input name="filterCheckBox"  type="checkbox" value="Mathematics">Mathematics</label>
+                            <label><input name="filterCheckBox"  type="checkbox" value="Humans">Humans</label>
+                            <label><input name="filterCheckBox"  type="checkbox" value="Animials">Animials</label>
+                            <label><input name="filterCheckBox"  type="checkbox" value="Evolution">Evolution</label>
+                            <label><input name="filterCheckBox"  type="checkbox" value="Creation">Creation</label>
+                            <h5 class="filter-cat">Religous</h5><label><input type="checkbox" value="Christianity">Christianity</label>
+                            <label><input name="filterCheckBox" type="checkbox" value="Faith">Faith</label>
+                            <label><input name="filterCheckBox" type="checkbox" value="Bible">Bible</label>
+                            <label><input name="filterCheckBox" type="checkbox" value="Truth seeking">Truth seeking</label>
+                            <label><input name="filterCheckBox" type="checkbox" value="God">God</label>
+                            <label><input name="filterCheckBox" type="checkbox" value="Prayer">Prayer</label>
+                            <label><input name="filterCheckBox" type="checkbox" value="Doubt">Doubt</label>
+                            <label><input name="filterCheckBox" type="checkbox" value="Afterlife">Afterlife</label>
+                            <label><input name="filterCheckBox" type="checkbox" value="Spiritual">Spiritual</label>
+                            <h5 class="filter-cat">Life</h5><label><input type="checkbox" value="Trama">Trama</label>
+                            <label><input name="filterCheckBox" type="checkbox" value="Relationship">Relationship</label>
+                            <label><input name="filterCheckBox" type="checkbox" value="Marriage">Marriage</label>
+                            <h5 class="filter-cat">Other</h5><label><input type="checkbox" value="Fun">Fun</label>
+                            <label><input name="filterCheckBox" type="checkbox" value="History">History</label>
+                            <label><input name="filterCheckBox" type="checkbox" value="Epistemology">Epistemology</label>
+                        </div>
+                    </div>
+                    <div id="filter-box-buttons" class="pull-right">
+                        <button class="btn btn-primary filter-box-button" onclick="filterApplyClick()">Apply</button>
+                        <button class="btn btn-primary filter-box-button" onclick="filterResetClick()">Clear</button>
+                    </div>
+                </div>
+            </div>
+            <!-- end filter section -->
+
+            <table id="table-questions" class="table" data-sorting="true" data-filtering="true" id>
+                <thead>
+                    <tr>
+                        <th data-type="html" data-filterable="false">Episode</th>
+                        <th data-breakpoints="xs sm" data-sortable="false" data-filterable="false">#</th>
+                        <th data-breakpoints="xs sm" data-sortable="false" data-filterable="false">Time</th>
+                        <th data-breakpoints="xs">Tags</th>
+                        <th data-sortable="false">Question</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>
+                        <a href="http://mikemchargue.com/asksciencemike/2015/1/18/episode-1-animal-souls-the-power-of-uncertainty-and-getting-freaky-with-angels"
+                            target="_blank">1</a>
+                    </td>
+                    <td> 1 </td>
+                    <td class="text-right"> 1:00 </td>
+                    <td> Humans, Evolution </td>
+                    <td> Who was the first person with a soul? Who, when or what created this extra layer to humanity? </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://mikemchargue.com/asksciencemike/2015/1/18/episode-1-animal-souls-the-power-of-uncertainty-and-getting-freaky-with-angels"
+                            target="_blank">1</a>
+                    </td>
+                    <td> 2 </td>
+                    <td class="text-right"> 9:59 </td>
+                    <td> Truth seeking, Faith </td>
+                    <td> How do you deal with wanting to remain open minded and uncertain while always looking for facts and certainty?
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://mikemchargue.com/asksciencemike/2015/1/18/episode-1-animal-souls-the-power-of-uncertainty-and-getting-freaky-with-angels"
+                            target="_blank">1</a>
+                    </td>
+                    <td> 3 </td>
+                    <td class="text-right"> 14:49 </td>
+                    <td> Doubt, Faith </td>
+                    <td> I doubt the need for God, but I still feel like there is a God. How do you deal with cognitive dissonance?
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://mikemchargue.com/asksciencemike/2015/1/18/episode-1-animal-souls-the-power-of-uncertainty-and-getting-freaky-with-angels"
+                            target="_blank">1</a>
+                    </td>
+                    <td> 4 </td>
+                    <td class="text-right"> 21:26 </td>
+                    <td> Bible </td>
+                    <td> What are you thoughts about Genesis 6:2 that says the sons of God married daughters of humans? </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://mikemchargue.com/asksciencemike/2015/1/22/episode-2-pangea-prayer-and-pretending-god-is-real" target="_blank">2</a>
+                    </td>
+                    <td> 1 </td>
+                    <td class="text-right"> 1:00 </td>
+                    <td> Geology </td>
+                    <td> Can God make a rock so big that he couldn't lift it? </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://mikemchargue.com/asksciencemike/2015/1/22/episode-2-pangea-prayer-and-pretending-god-is-real" target="_blank">2</a>
+                    </td>
+                    <td> 2 </td>
+                    <td class="text-right"> 7:24 </td>
+                    <td> Prayer, Neurology </td>
+                    <td> What happens in our brain when we use our imagination and when we pray, and how do these interact?
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://mikemchargue.com/asksciencemike/2015/1/22/episode-2-pangea-prayer-and-pretending-god-is-real" target="_blank">2</a>
+                    </td>
+                    <td> 3 </td>
+                    <td class="text-right"> 21:29 </td>
+                    <td> Geology </td>
+                    <td> Why is Pangea threatening to American Christians? </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://mikemchargue.com/asksciencemike/2015/1/22/episode-2-pangea-prayer-and-pretending-god-is-real" target="_blank">2</a>
+                    </td>
+                    <td> 4 </td>
+                    <td class="text-right"> 19:55 </td>
+                    <td> Faith, Religion, Doubt </td>
+                    <td> I want to believe in something. Where do I start? </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://mikemchargue.com/asksciencemike/2015/1/31/episode-3-the-fastest-car-in-the-universe-what-happens-when-we-die"
+                            target="_blank">3</a>
+                    </td>
+                    <td> 1 </td>
+                    <td class="text-right"> 1:04 </td>
+                    <td> Fun </td>
+                    <td> If your traveling in a car at the speed of light and you turn your headlights on, will it work? </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://mikemchargue.com/asksciencemike/2015/1/31/episode-3-the-fastest-car-in-the-universe-what-happens-when-we-die"
+                            target="_blank">3</a>
+                    </td>
+                    <td> 2 </td>
+                    <td class="text-right"> 9:19 </td>
+                    <td> Prayer, Faith </td>
+                    <td> Does God answer prayer? </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://mikemchargue.com/asksciencemike/2015/1/31/episode-3-the-fastest-car-in-the-universe-what-happens-when-we-die"
+                            target="_blank">3</a>
+                    </td>
+                    <td> 3 </td>
+                    <td class="text-right"> 17:55 </td>
+                    <td> Astronomy </td>
+                    <td> What are antimatter and black holes? </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://mikemchargue.com/asksciencemike/2015/1/31/episode-3-the-fastest-car-in-the-universe-what-happens-when-we-die"
+                            target="_blank">3</a>
+                    </td>
+                    <td> 4 </td>
+                    <td class="text-right"> 22:09 </td>
+                    <td> Afterlife, Faith </td>
+                    <td> What happens when we die? </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://mikemchargue.com/asksciencemike/2015/2/8/episode-4-rising-waters-an-expanding-universe-and-an-infinite-number-of-hells"
+                            target="_blank">4</a>
+                    </td>
+                    <td> 1 </td>
+                    <td class="text-right"> 1:04 </td>
+                    <td> Astronomy, Physics, Cosmology </td>
+                    <td> What in, or of, the universe is expanding? </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://mikemchargue.com/asksciencemike/2015/2/8/episode-4-rising-waters-an-expanding-universe-and-an-infinite-number-of-hells"
+                            target="_blank">4</a>
+                    </td>
+                    <td> 2 </td>
+                    <td class="text-right"> 5:46 </td>
+                    <td> Cosmology, Religion, Afterlife </td>
+                    <td> What implications does the multiverse have on Heaven and Hell? </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://mikemchargue.com/asksciencemike/2015/2/8/episode-4-rising-waters-an-expanding-universe-and-an-infinite-number-of-hells"
+                            target="_blank">4</a>
+                    </td>
+                    <td> 3 </td>
+                    <td class="text-right"> 16:07 </td>
+                    <td> Bible </td>
+                    <td> What's the historical basis for Noah's flood? </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://mikemchargue.com/asksciencemike/2015/2/8/episode-4-rising-waters-an-expanding-universe-and-an-infinite-number-of-hells"
+                            target="_blank">4</a>
+                    </td>
+                    <td> 4 </td>
+                    <td class="text-right"> 21:17 </td>
+                    <td> Spiritual, Neurology </td>
+                    <td> Is there merit to spiritual warfare? Or is it a construct that humans have created to find meaning in
+                        our existence?
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://mikemchargue.com/asksciencemike/2015/2/15/episode-5-chaos-theory-disproving-the-big-bang-and-why-god-is-such-a-meanie"
+                            target="_blank">5</a>
+                    </td>
+                    <td> 1 </td>
+                    <td class="text-right"> 1:00 </td>
+                    <td> Cosmology </td>
+                    <td> Was the Big Band Theory disproven this week? </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://mikemchargue.com/asksciencemike/2015/2/15/episode-5-chaos-theory-disproving-the-big-bang-and-why-god-is-such-a-meanie"
+                            target="_blank">5</a>
+                    </td>
+                    <td> 2 </td>
+                    <td class="text-right"> 4:07 </td>
+                    <td> Cosmology, Mathematics </td>
+                    <td> What does Chaos Theory tell us about God and how He created our universe? </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://mikemchargue.com/asksciencemike/2015/2/15/episode-5-chaos-theory-disproving-the-big-bang-and-why-god-is-such-a-meanie"
+                            target="_blank">5</a>
+                    </td>
+                    <td> 3 </td>
+                    <td class="text-right"> 10:55 </td>
+                    <td> God, Faith, Bible </td>
+                    <td> How do you reconcile the mean Old Testament God with the loving Jesus? </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://mikemchargue.com/asksciencemike/2015/2/15/episode-5-chaos-theory-disproving-the-big-bang-and-why-god-is-such-a-meanie"
+                            target="_blank">5</a>
+                    </td>
+                    <td> 4 </td>
+                    <td class="text-right"> 16:35 </td>
+                    <td> Christianity, Faith </td>
+                    <td> Is Christianity worth all the baggage that it carries? </td>
+                </tr>
+                </tbody>
+            </table>
         </div>
-        <div class="col-xs-12 col-sm-2 col-md-2">
-            <a href="http://mikemchargue.com/ask-science-mike/"><img src="images\asmLogo.jpg" height="145" width="145" class=".img-responsive" alt="Ask Science Mike" /></a>
-        </div>
-        <div class="col-xs-12 col-sm-8 col-sm-offset-1 col-md-6 col-md-offset-0">
-            <p>Ask Science Mike is a weekly podcast covering questions about science, faith, and life. The show is hosted by
-                <a href="http://mikemchargue.com/about-mike">Mike McHargue.</a>
-            </p>
-            <p>This is an archive of questions and topics from the <a href="http://mikemchargue.com/ask-science-mike/"> Ask Science Mike podcast</a>.
-                Search and browse the questions below. Click the episode number to listen and view the show notes.
-            </p>
-        </div>
-        <div class="col-xs-12 col-sm-2 col-md-4">
-        </div>
-    </div>
-</div>
-<!-- End index upper template --><table id = "table-questions" class="table" data-sorting="true" data-filtering="true" id><thead><tr><th data-type="html">Episode</th><th data-breakpoints="xs sm" data-sortable="false">Question</th><th data-breakpoints="xs sm" data-sortable="false">Time</th><th data-breakpoints="xs">Tags</th><th data-sortable="false">Question</th></tr></thead><tr><td><a href="http://mikemchargue.com/asksciencemike/2015/1/18/episode-1-animal-souls-the-power-of-uncertainty-and-getting-freaky-with-angels" target="_blank">1</a></td><td> 1 </td><td class="text-right"> 1:00 </td><td> Humans, Evolution </td><td> Who was the first person with a soul? Who, when or what created this extra layer to humanity? </td></tr><tr><td><a href="http://mikemchargue.com/asksciencemike/2015/1/18/episode-1-animal-souls-the-power-of-uncertainty-and-getting-freaky-with-angels" target="_blank">1</a></td><td> 2 </td><td class="text-right"> 9:59 </td><td> Truth seeking, Faith </td><td> How do you deal with wanting to remain open minded and uncertain while always looking for facts and certainty? </td></tr><tr><td><a href="http://mikemchargue.com/asksciencemike/2015/1/18/episode-1-animal-souls-the-power-of-uncertainty-and-getting-freaky-with-angels" target="_blank">1</a></td><td> 3 </td><td class="text-right"> 14:49 </td><td> Doubt, Faith </td><td> I doubt the need for God, but I still feel like there is a God. How do you deal with cognitive dissonance?  </td></tr><tr><td><a href="http://mikemchargue.com/asksciencemike/2015/1/18/episode-1-animal-souls-the-power-of-uncertainty-and-getting-freaky-with-angels" target="_blank">1</a></td><td> 4 </td><td class="text-right"> 21:26 </td><td> Bible </td><td> What are you thoughts about Genesis 6:2 that says the sons of God married daughters of humans? </td></tr><tr><td><a href="http://mikemchargue.com/asksciencemike/2015/1/22/episode-2-pangea-prayer-and-pretending-god-is-real" target="_blank">2</a></td><td> 1 </td><td class="text-right"> 1:00 </td><td> Geology </td><td> Can God make a rock so big that he couldn't lift it? </td></tr><tr><td><a href="http://mikemchargue.com/asksciencemike/2015/1/22/episode-2-pangea-prayer-and-pretending-god-is-real" target="_blank">2</a></td><td> 2 </td><td class="text-right"> 7:24 </td><td> Prayer, Neurology </td><td> What happens in our brain when we use our imagination and when we pray, and how do these interact? </td></tr><tr><td><a href="http://mikemchargue.com/asksciencemike/2015/1/22/episode-2-pangea-prayer-and-pretending-god-is-real" target="_blank">2</a></td><td> 3 </td><td class="text-right"> 21:29 </td><td> Geology </td><td> Why is Pangea threatening to American Christians? </td></tr><tr><td><a href="http://mikemchargue.com/asksciencemike/2015/1/22/episode-2-pangea-prayer-and-pretending-god-is-real" target="_blank">2</a></td><td> 4 </td><td class="text-right"> 19:55 </td><td> Faith, Religion, Doubt </td><td> I want to believe in something. Where do I start?  </td></tr><tr><td><a href="http://mikemchargue.com/asksciencemike/2015/1/31/episode-3-the-fastest-car-in-the-universe-what-happens-when-we-die" target="_blank">3</a></td><td> 1 </td><td class="text-right"> 1:04 </td><td> Fun </td><td> If your traveling in a car at the speed of light and you turn your headlights on, will it work? </td></tr><tr><td><a href="http://mikemchargue.com/asksciencemike/2015/1/31/episode-3-the-fastest-car-in-the-universe-what-happens-when-we-die" target="_blank">3</a></td><td> 2 </td><td class="text-right"> 9:19 </td><td> Prayer, Faith </td><td> Does God answer prayer? </td></tr><tr><td><a href="http://mikemchargue.com/asksciencemike/2015/1/31/episode-3-the-fastest-car-in-the-universe-what-happens-when-we-die" target="_blank">3</a></td><td> 3 </td><td class="text-right"> 17:55 </td><td> Astronomy </td><td> What are antimatter and black holes? </td></tr><tr><td><a href="http://mikemchargue.com/asksciencemike/2015/1/31/episode-3-the-fastest-car-in-the-universe-what-happens-when-we-die" target="_blank">3</a></td><td> 4 </td><td class="text-right"> 22:09 </td><td> Afterlife, Faith </td><td> What happens when we die? </td></tr><tr><td><a href="http://mikemchargue.com/asksciencemike/2015/2/8/episode-4-rising-waters-an-expanding-universe-and-an-infinite-number-of-hells" target="_blank">4</a></td><td> 1 </td><td class="text-right"> 1:04 </td><td> Astronomy, Physics, Cosmology </td><td> What in, or of, the universe is expanding? </td></tr><tr><td><a href="http://mikemchargue.com/asksciencemike/2015/2/8/episode-4-rising-waters-an-expanding-universe-and-an-infinite-number-of-hells" target="_blank">4</a></td><td> 2 </td><td class="text-right"> 5:46 </td><td> Cosmology, Religion, Afterlife </td><td> What implications does the multiverse have on Heaven and Hell? </td></tr><tr><td><a href="http://mikemchargue.com/asksciencemike/2015/2/8/episode-4-rising-waters-an-expanding-universe-and-an-infinite-number-of-hells" target="_blank">4</a></td><td> 3 </td><td class="text-right"> 16:07 </td><td> Bible </td><td> What's the historical basis for Noah's flood? </td></tr><tr><td><a href="http://mikemchargue.com/asksciencemike/2015/2/8/episode-4-rising-waters-an-expanding-universe-and-an-infinite-number-of-hells" target="_blank">4</a></td><td> 4 </td><td class="text-right"> 21:17 </td><td> Spiritual, Neurology </td><td> Is there merit to spiritual warfare? Or is it a construct that humans have created to find meaning in our existence? </td></tr><tr><td><a href="http://mikemchargue.com/asksciencemike/2015/2/15/episode-5-chaos-theory-disproving-the-big-bang-and-why-god-is-such-a-meanie" target="_blank">5</a></td><td> 1 </td><td class="text-right"> 1:00 </td><td> Cosmology </td><td> Was the Big Band Theory disproven this week? </td></tr><tr><td><a href="http://mikemchargue.com/asksciencemike/2015/2/15/episode-5-chaos-theory-disproving-the-big-bang-and-why-god-is-such-a-meanie" target="_blank">5</a></td><td> 2 </td><td class="text-right"> 4:07 </td><td> Cosmology, Mathematics </td><td> What does Chaos Theory tell us about God and how He created our universe? </td></tr><tr><td><a href="http://mikemchargue.com/asksciencemike/2015/2/15/episode-5-chaos-theory-disproving-the-big-bang-and-why-god-is-such-a-meanie" target="_blank">5</a></td><td> 3 </td><td class="text-right"> 10:55 </td><td> God, Faith, Bible </td><td> How do you reconcile the mean Old Testament God with the loving Jesus? </td></tr><tr><td><a href="http://mikemchargue.com/asksciencemike/2015/2/15/episode-5-chaos-theory-disproving-the-big-bang-and-why-god-is-such-a-meanie" target="_blank">5</a></td><td> 4 </td><td class="text-right"> 16:35 </td><td> Christianity, Faith </td><td> Is Christianity worth all the baggage that it carries? </td></tr></tbody></table>
-</div>
-<!-- my-body -->
-<!-- end body template --><!-- start footer template -->
-<footer class="my-footer container-fluid">
-    <div class="row">
-        <div class="col-lg-12 text-center">
-            <p class="my-footer-text">by ASM Community</p>
-        </div>
-    </div>
-</footer>
+        <!-- my-body -->
+        <!-- end body template -->
+        <!-- start footer template -->
+        <footer class="my-footer container-fluid">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p class="my-footer-text">by ASM Community</p>
+                </div>
+            </div>
+        </footer>
 
-</main>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        </main>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
 
-<script src="js/myscripts.js"></script>
-<script src="js/footable.min.js"></script>
+        <script src="js/myscripts.js"></script>
+        <script src="js/footable.min.js"></script>
 
-<!-- Initialize FooTable -->
-<script>
-    jQuery(function ($) {
-        $('.table').footable();
-    });
-
-</script>
+        <!-- Initialize FooTable -->
+        <script>
+                                                                                   jQuery(function ($) {
+                                                                                       $('.table').footable();
+                                                                                   });
+        </script>
 </body>
 
 </html>

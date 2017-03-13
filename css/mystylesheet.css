@@ -22,6 +22,7 @@ body{
 	font-weight: 400;
 }
 
+/* HEADER */
 .my-header{
     background: url("../images/stars-bg.png") no-repeat 80% 40%;
     background-size: cover;
@@ -58,9 +59,78 @@ body{
     z-index: 99;
 }
 
+/* UPPER BODY */
 .my-body-upper{
     font-family: "MyFontLig";
     font-size: 20px;
+}
+
+/* Filters */
+#filterByTagCheckBoxes{
+    padding-left:20px;
+}
+
+#filterByTagCheckBoxes label{
+    margin-left:10px;
+    display: inline-block;
+    font-weight: normal;
+    margin-bottom:5px;
+}
+
+ .filter-cat{
+     margin-bottom:0px;
+     margin-top: 0px;
+     font-weight: bold;
+     
+ }
+
+#filter-box-buttons{
+    padding-top:0px;
+}
+
+.filter-box-button{
+    padding-left:15px;
+}
+
+.filter-panel{
+    padding-right:10px;
+}
+
+.filter-row{
+    padding-right:10px;
+}
+
+.filter-button{
+    padding-right:0px;
+}
+
+/* visited link */
+a:visited {
+    
+}
+
+/* mouse over link */
+a:link.filter-button{
+    text-decoration: none;
+    color:#337ab7;
+}
+
+a:hover.filter-button {
+    text-decoration: none;
+}
+
+a:visited.filter-button{
+    text-decoration: none;
+    color:#337ab7;
+}
+
+a:active.filter-button{
+    text-decoration: none;
+}
+
+/* Table */
+.hidden-row{
+    display:none;
 }
 
 .col-episode{
@@ -82,6 +152,7 @@ body{
  width: 250px;   
 }
 
+/* FOOTER */
 .my-footer{
     position: relative;
     bottom:0;
@@ -95,3 +166,4 @@ body{
 .my-footer-text{
     padding-top: 10px;
 }
+
